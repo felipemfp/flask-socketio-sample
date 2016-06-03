@@ -1,6 +1,7 @@
 click==6.6
 eventlet==0.19.0
 Flask==0.11
+Flask-Cors==2.1.2
 Flask-SocketIO==2.4
 greenlet==0.4.9
 gunicorn==19.6.0
