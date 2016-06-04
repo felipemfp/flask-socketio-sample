@@ -18,7 +18,7 @@ You have to clone this repository (or you can [download a .zip](//github.com/fel
 git clone https://github.com/felipemfp/flask-socketio-sample.git
 ```
 
-Now you have to install all [requirements](requirements.txt)
+Now you have to install all [requirements](requirements.txt). But I'm using [Flask-CORS](//flask-cors.readthedocs.io/en/latest/) to make cross-origin AJAX possible, so it's a opcional requeriment if you don't need that.
 
 ```
 cd flask-socketio-sample
@@ -40,6 +40,7 @@ It is already able to be deployed on Heroku. Read more about how to deploy [here
 * [Flask](//flask.pocoo.org/)
 * [Socket.IO](//socket.io/)
 * [Flask-SocketIO](//github.com/miguelgrinberg/Flask-SocketIO)
+* [Flask-CORS](//flask-cors.readthedocs.io/en/latest/)
 * [jQuery](//jquery.com)
 
 ## Contributing
