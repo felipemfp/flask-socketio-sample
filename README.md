@@ -1,24 +1,24 @@
 # Flask and Socket.IO Sample
 
-A really simple sample that show how to use [Flask](//flask.pocoo.org/) and [Socket.IO](//socket.io/).
+A really simple sample that show how to use [Flask](http://flask.pocoo.org/) and [Socket.IO](https://socket.io/).
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Prerequisities
+### Prerequisites
 
-Make sure that you have [Python 3.x](//www.python.org/downloads/), [pip](//pip.pypa.io/en/stable/installing/) and [git](//help.github.com/articles/set-up-git/) installed.
+Make sure that you have [Python 3.x](https://www.python.org/downloads/), [pip](https://pip.pypa.io/en/stable/installing/) and [git](https://help.github.com/articles/set-up-git/) installed.
 
 ### Installing
 
-You have to clone this repository (or you can [download a .zip](//github.com/felipemfp/flask-socketio-sample/archive/master.zip))
+You have to clone this repository (or you can [download a .zip](https://github.com/felipemfp/flask-socketio-sample/archive/master.zip))
 
 ```
 git clone https://github.com/felipemfp/flask-socketio-sample.git
 ```
 
-Now you have to install all [requirements](requirements.txt). But I'm using [Flask-CORS](//flask-cors.readthedocs.io/en/latest/) to make cross-origin AJAX possible, so it's a opcional requeriment if you don't need that.
+Now you have to install all [requirements](requirements.txt). Note that I'm using [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/) to make cross-origin requests possible, so it's a opcional requirement if you don't need that.
 
 ```
 cd flask-socketio-sample
@@ -33,15 +33,14 @@ python app.py
 
 ## Deployment
 
-It is already able to be deployed on Heroku. Read more about how to deploy [here](//flask-socketio.readthedocs.io/en/latest/#deployment).
+It is already able to be deployed on Heroku. Read more about how to deploy [here](https://flask-socketio.readthedocs.io/en/latest/#deployment).
 
 ## Built With
 
-* [Flask](//flask.pocoo.org/)
-* [Socket.IO](//socket.io/)
-* [Flask-SocketIO](//github.com/miguelgrinberg/Flask-SocketIO)
-* [Flask-CORS](//flask-cors.readthedocs.io/en/latest/)
-* [jQuery](//jquery.com)
+* [Flask](http://flask.pocoo.org/)
+* [Socket.IO](https://socket.io/)
+* [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO)
+* [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/)
 
 ## Contributing
 
